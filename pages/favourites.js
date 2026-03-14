@@ -1,5 +1,5 @@
 import { useAtom } from "jotai"; //This is something new added from Jotai Library called Atom
-import { favouritesAtom } from "./store";
+import { favouritesAtom } from "../store";
 import { useRouter } from "next/router";
 import PageHeader from "@/components/PageHeader";
 import BookCard from "@/components/BookCard"; // This Bookcard is Part of Part 3
