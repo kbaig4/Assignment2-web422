@@ -1,6 +1,6 @@
 import { Container, Row, Col, Button } from "react-bootstrap";
 import { useAtom } from "jotai";
-import { favouritesAtom } from "../pages/store";
+import { favouritesAtom } from "../store";
 
 import { useState, useEffect } from "react";
 
